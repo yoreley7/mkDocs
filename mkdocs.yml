@@ -25,9 +25,9 @@ markdown_extensions:
       permalink: "#"
   - attr_list
 
-nav:
-  - Baseline:
-    - vertex/baseline.md
+#nav:
+#  - Baseline:
+#    - vertex/baseline.md
 
 plugins:
 #  - search
@@ -58,42 +58,40 @@ plugins:
         min-height: "175px"
 
 
-#nav:
-#  - Home: index.md
-#  - Vertex:
-#    - Vertex Manual:
-#    -   vertex/manual.md
-#    - Baseline:
-#    -   vertex/baseline.en.md
-#    -   vertex/baseline.es.md
-#    - SBAS: vertex/sbas.md
-#    - Event: vertex/events.md
-#    - Derived Datasets: vertex/derived_datasets.md
-#    - What's New: vertex/changelog.md
-#    - Tutorial Videos: https://www.youtube.com/playlist?list=PLXluIEvp5ZzIWd0yNy-ANfdwWjCD1hInA
-#    - Source Code: https://github.com/asfadmin/Discovery-SearchUI
-#  - Custom Processing: https://hyp3-docs.asf.alaska.edu
-#  - Python Search Module:
-#    - Basics: asf_search/basics.md
-#    - Searching: asf_search/searching.md
-#    - Downloading: asf_search/downloading.md
-#    - Classes:
-#      - ASFProduct: asf_search/ASFProduct.md
-#      - ASFSearchOptions: asf_search/ASFSearchOptions.md
-#      - ASFSearchResults: asf_search/ASFSearchResults.md
-#      - ASFSession: asf_search/ASFSession.md
-#    - Exceptions: asf_search/exceptions.md
-#    - What's New: https://github.com/asfadmin/Discovery-asf_search/blob/master/CHANGELOG.md
-#  - ASF Search API:
-#    - Search API Basics: api/basics.md
-#    - Search API Keywords & Endpoints: api/keywords.md
-#    - Tools: api/tools.md
-#    - Troubleshooting: api/troubleshooting.md
-#    - Cookbook: api/cookbook.md
-#    - What's New: api/changelog.md
-#  # - About: about.md
-#  - Product Details:
-#    - Using ASF Data: datasets/using_ASF_data.md
-#    - ALOS PALSAR Products: datasets/palsar.md
-#    - Events (SARVIEWS): datasets/events_about.md
-#  - ASF Web: 'https://asf.alaska.edu/'
+nav:
+  - Home: index.md
+  - Vertex:
+    - Vertex Manual:
+    -   vertex/manual.md
+    - Baseline: vertex/baseline.md
+    - SBAS: vertex/sbas.md
+    - Event: vertex/events.md
+    - Derived Datasets: vertex/derived_datasets.md
+    - What's New: vertex/changelog.md
+    - Tutorial Videos: https://www.youtube.com/playlist?list=PLXluIEvp5ZzIWd0yNy-ANfdwWjCD1hInA
+    - Source Code: https://github.com/asfadmin/Discovery-SearchUI
+  - Custom Processing: https://hyp3-docs.asf.alaska.edu
+  - Python Search Module:
+    - Basics: asf_search/basics.md
+    - Searching: asf_search/searching.md
+    - Downloading: asf_search/downloading.md
+    - Classes:
+      - ASFProduct: asf_search/ASFProduct.md
+      - ASFSearchOptions: asf_search/ASFSearchOptions.md
+      - ASFSearchResults: asf_search/ASFSearchResults.md
+      - ASFSession: asf_search/ASFSession.md
+    - Exceptions: asf_search/exceptions.md
+    - What's New: https://github.com/asfadmin/Discovery-asf_search/blob/master/CHANGELOG.md
+  - ASF Search API:
+    - Search API Basics: api/basics.md
+    - Search API Keywords & Endpoints: api/keywords.md
+    - Tools: api/tools.md
+    - Troubleshooting: api/troubleshooting.md
+    - Cookbook: api/cookbook.md
+    - What's New: api/changelog.md
+  # - About: about.md
+  - Product Details:
+    - Using ASF Data: datasets/using_ASF_data.md
+    - ALOS PALSAR Products: datasets/palsar.md
+    - Events (SARVIEWS): datasets/events_about.md
+  - ASF Web: 'https://asf.alaska.edu/'
