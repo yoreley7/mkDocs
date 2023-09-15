@@ -6,6 +6,9 @@ To install requirements run
 
 `pip install -r requirements.txt`
 
+pip install mkdocs-static-i18n
+pip install mkdocs-material
+
 ### Developing Documentation
 MkDocs comes with a built-in dev-server that lets you preview
 your documentation as you work on it. Make sure you're in the
@@ -41,3 +44,6 @@ as part of the merge process in github.
 
 The site is deployed using github pages, built using the prod branch.
 Merging to prod will trigger a production build.
+
+
+
