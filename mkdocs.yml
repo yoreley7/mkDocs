@@ -11,8 +11,6 @@ extra:
     - property: UA-991100-5
 
 theme:
-#    custom_dir: '/Users/aanderson/My ASF/Code/mkdocs-asf-theme/asf_theme'
-#    name: material
     name: material
     custom_dir: asf_theme/
     logo: assets/images/ASFLogo-Blue2.png
@@ -25,15 +23,7 @@ markdown_extensions:
       permalink: "#"
   - attr_list
 
-#nav:
-#  - Baseline:
-#    - vertex/baseline.md
-
 plugins:
-#  - search
-#      lang:
-#        - en
-#        - es
   - i18n:
       docs_structure: suffix
       languages:
