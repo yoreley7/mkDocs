@@ -49,10 +49,11 @@ plugins:
 
 
 nav:
-  - Home: index.md
+  - Home:
+    - index.md
   - Vertex:
     - Vertex Manual:
-    -   vertex/manual.md
+      - vertex/manual.md
     - Baseline: vertex/baseline.md
     - SBAS: vertex/sbas.md
     - Event: vertex/events.md
